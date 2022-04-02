@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HeroesWorkshop.Domain\HeroesWorkshop.Domain.csproj" />
+    <ProjectReference Include="..\HeroesWorkshop.Persistence\HeroesWorkshop.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
